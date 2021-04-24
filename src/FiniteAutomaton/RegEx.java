@@ -301,4 +301,10 @@ public class RegEx {
 
         return ans.toString();
     }
+
+    public static void main(String[] args) {
+        RegEx t = new RegEx();
+
+        System.out.println(t.regToNFA("00.1|*").equals("10#8#9#0,1;2,3#4,5#1,2;3,7;5,7;6,0;6,4;7,6;7,9;8,6;8,9"));;
+    }
 }
